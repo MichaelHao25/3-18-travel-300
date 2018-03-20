@@ -45,11 +45,21 @@ h3.public-title
 		url('../img/header-more.png') right center/25px auto no-repeat
 		
 .main
-	background url('../img/main-bg.png') center top/100% auto no-repeat
+	// background url('../img/main-bg.png') center top/100% auto no-repeat
+	.swiper-container
+		.swiper-wrapper
+			.swiper-slide
+				img
+				a
+					display block
+					width 100%
 	.m0-20
 		margin 0 20px
 	.happy-day
-		padding 290px 0 30px
+		position relative
+		z-index 10
+		margin-top -50px
+		padding-bottom 60px
 		display -webkit-flex
 		display -moz-flex
 		display -ms-flex
@@ -284,6 +294,140 @@ h3.public-title
 						border-radius 5px
 						text-align center
 						background #ff5307
-					
+	.page-6
+		margin-top 5px		
+		border 1px solid #e7e6eb
+		background #fff
+		h3
+			border-top none
+			border-bottom 1px solid #e7e6eb
+		.list
+			padding 10px
+			padding-bottom 0
+			display -webkit-flex
+			display -moz-flex
+			display -ms-flex
+			display -o-flex
+			display flex
+			justify-content space-between
+			flex-wrap wrap
+			.item
+				flex 0 0 220px
+				margin-bottom 10px
+				border 1px solid #e7e6eb
+				.pic
+					position relative
+				h4
+					position absolute
+					bottom 10px
+					left 10px
+					font-size 18px
+					color #fff
+				img
+					display block
+					width 220px
+					height 162px
+				.cost
+					padding 0 10px
+					border-top none
+					font-size 20px
+					color #fd5004
+					line-height 34px
+					text-align right
+	.page-7
+		margin-top 5px
+		border 1px solid #e7e6eb
+		background #fff
+		h3
+			border-top none
+			border-bottom 1px solid #e7e6eb
+		.list
+			padding 10px
+			padding-bottom 0
+			display -webkit-flex
+			display -moz-flex
+			display -ms-flex
+			display -o-flex
+			display flex
+			justify-content space-between
+			flex-wrap wrap
+			.item
+				flex 0 0 340px
+				margin-bottom 10px
+				img
+					display block
+					width 340px
+					height 255px
+				.pic
+					position relative
+				h4
+					position absolute
+					height 40px
+					font-size 24px
+					color #fff
+					line-height 40px
+					bottom 0
+					left 0
+					right 0
+					padding-left 10px
+					background rgba(0,0,0,0.5)
+				.cost
+					padding 0 10px
+					border 1px solid #eeeeee
+					border-top none
+					font-size 26px
+					color #ecc31d
+					line-height 44px
+					display -webkit-flex
+					display -moz-flex
+					display -ms-flex
+					display -o-flex
+					display flex
+					justify-content space-between
+					span
+						border none
+				.score
+					display block
+					width 45px
+					height 44px
+					background url('../img/score.png') left center/9px auto repeat-x
 			
-				
+	.page-8
+		margin 10px 20px
+		img
+			display block
+			width 100%
+	
+.footer
+	margin 0 20px
+	color #00a0e9
+	.nav
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		justify-content space-around
+		font-size 32px
+		line-height 56px
+	.nav-2
+		margin 20px 0 80px
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		justify-content space-around
+		background #00a1e9
+		color #fff
+		font-size 32px
+		line-height 56px	
+.goto-top
+	position fixed
+	right 20px
+	bottom 50px
+	img
+		display block
+		width 45px
+		height 45px
+	

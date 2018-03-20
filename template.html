@@ -10,6 +10,7 @@
  	<!-- 添加 favicon icon -->
  	<meta name="renderer" content="webkit">
  	<title>Document</title>
+ 	<link rel="stylesheet" href="css/swiper.min.css">
  	<link rel="stylesheet" href="css/public.css" />
  	<script src="js/font-size.js"></script>
  </head>
@@ -19,6 +20,16 @@
  		<div class="location">银川</div>
  	</hedaer>
  	<main class="main">
+ 		<div class="swiper-container">
+ 			<div class="swiper-wrapper">
+ 				<div class="swiper-slide"><a href="#"><img src="img/main-bg.png" alt=""></a></div>
+ 				<div class="swiper-slide"><a href="#"><img src="img/main-bg.png" alt=""></a></div>
+ 				<div class="swiper-slide"><a href="#"><img src="img/main-bg.png" alt=""></a></div>
+ 			</div>
+
+ 			<div class="swiper-button-prev"></div>
+ 			<div class="swiper-button-next"></div>
+ 		</div>
  		<div class="happy-day">
  			<div class="pic" href="#">
  				<img src="img/h.png" alt="">
@@ -161,55 +172,263 @@
  				</div>
  			</div>
  		</section>
- 		<div class="page-5 m0-20">
- 			<div class="tabs-control">
+ 		<section class="page-5 m0-20">
+ 			<div class="tabs-control" data-js-tabs=".tabs-container">
  				<div class="item active">银川</div>
  				<div class="item">中卫</div>
  				<div class="item">周边</div>
  			</div>
- 			<div class="tabs-wrap">
- 				<div class="tabs-item">
- 					<div class="pic">
- 						<img src="img/ihoc21.png" alt="">
+ 			<div class="tabs-container">
+ 				<div class="tabs-wrap">
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc21.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>沙湖旅游度假区</h3>
+ 							<a href="#">详情</a>
+ 						</div>
  					</div>
- 					<div class="content">
- 						<h3>沙湖旅游度假区</h3>
- 						<a href="#">详情</a>
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc22.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>镇北堡西部影视城</h3>
+ 							<a href="#">详情</a>
+ 						</div>
+ 					</div>
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc23.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>水洞沟遗址</h3>
+ 							<a href="#">详情</a>
+ 						</div>
+ 					</div>
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc24.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>贺兰山岩画</h3>
+ 							<a href="#">详情</a>
+ 						</div>
  					</div>
  				</div>
- 				<div class="tabs-item">
- 					<div class="pic">
- 						<img src="img/ihoc22.png" alt="">
+ 				<div class="tabs-wrap">
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc21.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>沙湖旅游度假区2222</h3>
+ 							<a href="#">详情</a>
+ 						</div>
  					</div>
- 					<div class="content">
- 						<h3>镇北堡西部影视城</h3>
- 						<a href="#">详情</a>
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc22.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>镇北堡西部影视城</h3>
+ 							<a href="#">详情</a>
+ 						</div>
+ 					</div>
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc23.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>水洞沟遗址</h3>
+ 							<a href="#">详情</a>
+ 						</div>
+ 					</div>
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc24.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>贺兰山岩画</h3>
+ 							<a href="#">详情</a>
+ 						</div>
  					</div>
  				</div>
- 				<div class="tabs-item">
- 					<div class="pic">
- 						<img src="img/ihoc23.png" alt="">
+ 				<div class="tabs-wrap">
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc21.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>沙湖旅游度假区3333</h3>
+ 							<a href="#">详情</a>
+ 						</div>
  					</div>
- 					<div class="content">
- 						<h3>水洞沟遗址</h3>
- 						<a href="#">详情</a>
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc22.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>镇北堡西部影视城</h3>
+ 							<a href="#">详情</a>
+ 						</div>
+ 					</div>
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc23.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>水洞沟遗址</h3>
+ 							<a href="#">详情</a>
+ 						</div>
+ 					</div>
+ 					<div class="tabs-item">
+ 						<div class="pic">
+ 							<img src="img/ihoc24.png" alt="">
+ 						</div>
+ 						<div class="content">
+ 							<h3>贺兰山岩画</h3>
+ 							<a href="#">详情</a>
+ 						</div>
  					</div>
  				</div>
- 				<div class="tabs-item">
+ 			</div>
+ 		</section>
+ 		<div class="page-6 m0-20">
+ 			<h3 class="public-title">
+ 				<span class="green">热门·</span>景区推荐
+ 			</h3>
+ 			<div class="list">
+ 				<div class="item">
  					<div class="pic">
- 						<img src="img/ihoc24.png" alt="">
+ 						<img src="img/ihoc25.png" alt="">
+ 						<h4>沙坡头</h4>
  					</div>
- 					<div class="content">
- 						<h3>贺兰山岩画</h3>
- 						<a href="#">详情</a>
+ 					<div class="cost">￥0 元起</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc26.png" alt="">
+ 						<h4>金沙岛</h4>
+ 					</div>
+ 					<div class="cost">￥0 元起</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc27.png" alt="">
+ 						<h4>通湖草原</h4>
+ 					</div>
+ 					<div class="cost">￥0 元起</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc28.png" alt="">
+ 						<h4>贺兰山岩画</h4>
+ 					</div>
+ 					<div class="cost">￥0 元起</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc29.png" alt="">
+ 						<h4>影视城</h4>
+ 					</div>
+ 					<div class="cost">￥0 元起</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc30.png" alt="">
+ 						<h4>沙湖</h4>
+ 					</div>
+ 					<div class="cost">￥0 元起</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<div class="page-7 m0-20">
+ 			<h3 class="public-title">
+ 				<span class="green">钜惠·</span>酒店度假
+ 			</h3>
+ 			<div class="list">
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc2.png" alt="">
+ 						<h4>银川凯宾斯基饭店</h4>
+ 					</div>
+ 					<div class="cost">
+ 						<div class="score"></div>
+ 						<span>360起</span>
+ 					</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc7.png" alt="">
+ 						<h4>中卫禹都丽兹大酒店</h4>
+ 					</div>
+ 					<div class="cost">
+ 						<div class="score"></div>
+ 						<span>240起</span>
+ 					</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc11.png" alt="">
+ 						<h4>新华国际饭店</h4>
+ 					</div>
+ 					<div class="cost">
+ 						<div class="score"></div>
+ 						<span>180起</span>
+ 					</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc12.png" alt="">
+ 						<h4>黄河金岸大酒店</h4>
+ 					</div>
+ 					<div class="cost">
+ 						<div class="score"></div>
+ 						<span>280起</span>
+ 					</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc31.png" alt="">
+ 					</div>
+ 				</div>
+ 				<div class="item">
+ 					<div class="pic">
+ 						<img src="img/ihoc32.png" alt="">
  					</div>
  				</div>
  			</div>
  		</div>
+ 		<div class="page-8 m0-20">
+ 			<img src="img/ihoc40.png" alt="">
+ 		</div>
  	</main>
+ 	<footer class="footer">
+ 		<div class="nav">
+ 			<a href="#">客户端下载</a>
+ 			<a href="#">帮助中心</a>
+ 			<a href="#">关于我们</a>
+ 		</div>
+ 		<div class="nav-2">
+ 			<a href="#">我的账户</a>
+ 			<a href="#">意见反馈</a>
+ 		</div>
+ 	</footer>
+ 	<div class="goto-top" href="#">
+ 		<img src="img/ihoc38.png" alt="">
+ 	</div>
  	<script data-main="js/main.js" src="js/require.js"></script>
  	<script>
  		require(['js'],function(){'load over.'})
+ 		require(['jquery','swiper'],function($,Swiper){
+ 			var mySwiper = new Swiper ('.swiper-container', {
+ 				nextButton: '.swiper-button-next',
+ 				prevButton: '.swiper-button-prev',
+ 				autoplay:3000
+ 			})      
+ 		})
  	</script>
  </body>
  </html>
